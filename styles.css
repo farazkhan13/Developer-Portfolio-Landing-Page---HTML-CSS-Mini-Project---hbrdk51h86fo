@@ -13,7 +13,7 @@ body {
     font-size: 30px;
     color: white;
     text-align: center;
-    background-image: url("https://img.freepik.com/free-vector/tropical-leaves-background-zoom_23-2148580778.jpg?w=740&t=st=1688551057~exp=1688551657~hmac=9fe4905eb4e192451577b09d65c2a7ef7e4b70bc2d53fb69a31e6aea217da068");
+    background-image: url("https://img.freepik.com/free-vector/gradient-network-connection-background_23-2148865392.jpg?w=740&t=st=1688572588~exp=1688573188~hmac=72460cee4301f73267923448b1f2e10d6f9fd1f923353cd273c47356aaa9f4bd");
     background-position: center;
     background-size: cover;
     height: 550px;
@@ -58,12 +58,11 @@ body {
 .grid-item {
     display: grid;
     justify-content: center;
-    align-items: center;
     max-width: 340px;
     height: 400px;
     border-radius: 10px;
-    box-shadow: 0 2px rgba(0, 0, 0, 0.15);
-    padding: 0 17px;
+    box-shadow: 2px 3px 6px 0px rgba(0, 0, 0, 0.5);
+    padding: 0;
     margin-top: 0;
 }
 
@@ -72,8 +71,11 @@ body {
     height: 250px;
     padding: 0;
     border-radius: 10px 10px 0 0;
+    width: 100%;
 }
-
+.data{
+    padding: 0 10px;
+}
 .bottom {
     display: flex;
     justify-content: space-around;
